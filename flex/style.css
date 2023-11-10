@@ -1,0 +1,36 @@
+/* HTML & Body Styles */
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: gray;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main Content Elements Styles */
+.box {
+  width: 250px;
+  height: 600px;
+  margin: 10px;
+  text-align: center;
+  background: white;
+}
+
+p {
+  padding: 8px;
+  margin: 8px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 1200px;
+}
